@@ -14,5 +14,5 @@ um pouco de Bootstrap, na parte de forms, para praticar a integração.
 
 # Layouts:
 
-![Index] ()
-![Login] ()
+![Index] (https://github.com/WFGuedes/WFguedes/blob/main/assets/Index.png)
+![Login] (https://github.com/WFGuedes/WFguedes/blob/main/assets/Login.png)
