@@ -1,16 +1,18 @@
-### Hi there 👋
+# Projeto Fintech: Schedia
 
-<!--
-**WFGuedes/WFguedes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Sobre o projeto:
 
-Here are some ideas to get you started:
+O projeto Fintech é uma atividade desenvolvida para a Faculdade FIAP com a inteção
+de praticar os conhecimentos em HTML, CSS e Bootstrap.
+Ainda há muito a ser melhorado, mas estou contente com os primeiros resultados, por ser
+um densenvolvedor de primeira viajem.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Páginas do projeto:
+
+O projeto está divido em três arquivos, dois .htmls (index e login) e um CSS. Também utilizei
+um pouco de Bootstrap, na parte de forms, para praticar a integração.
+
+# Layouts:
+
+![Index] ()
+![Login] ()

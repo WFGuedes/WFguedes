@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+/* Regras gerais dos botões: */
+.button {
+    width: 40%;
+    height:55%;
+    border-radius: 20px;
+    background-color: #27B6B6;
+    box-shadow: 0px 0px 15px 2px #27B6B6;
+    transition: 0.1s;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 30px 2px #27B6B6;
+}
+
+.button:active {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px 3px #27B6B6;
+}
+
+
+/* Início da página Index */
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 28rem 5rem 5rem;
+    grid-template-areas: 
+                        "figure0"
+                        "button1"
+                        "button2";
+    align-items: center;
+    justify-items: center;
+}
+
+.figure0 {
+    grid-area: figure0;
+    min-width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.button1 {
+    grid-area: button1;
+    font-size: 0.9rem;
+    
+}
+
+.button2 {
+    grid-area: button2;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 580px) {
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30rem 6rem 6rem;
+        grid-template-areas: 
+                            "figure0"
+                            "button1"
+                            "button2";
+        align-items: center;
+        justify-items: center;
+    }
+
+    .figure0 {
+        grid-area: figure0;
+        width: 19rem;
+        position: relative;
+        top: 50px;
+    }
+
+    .button {
+        width: 25%;
+        height: 65%;
+        border-radius: 20px;
+        background-color: #27B6B6;
+        box-shadow: 0px 0px 15px 2px #27B6B6;
+        transition: 0.2s;
+        color: white;
+        font-weight: bold;
+        border: transparent;
+        text-decoration: none;
+        text-align: center;
+        padding: 12px 0px;
+        font-size: 1.2rem;
+    }   
+}
+/* Fim da página Index */
+
+/* Início da página Login */
+.button3 {
+    background-color: transparent;
+    color: #27B6B6;
+    border: none;
+    font-size: 0.8rem;
+    margin: 0 0 0 10px;
+}
+
+.login_topo {
+    color: #27B6B6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -1.5rem;
+    cursor: default;
+}
+
+.container3  .figure_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 2rem;
+
+}
+.figure1 {
+    max-width: 30%;
+    
+}
+
+.input1 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+}
+
+.input1 label {
+    margin-bottom: 0px;
+}
+
+.input2 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.input2 label {
+    margin-bottom: 0px;
+}
+
+.bg1 {
+    border: transparent;
+}
+
+.text-bg-info {
+    color: #000 !important;
+    background-color: RGBA(39, 182, 182, var(--bs-bg-opacity, 1)) !important;
+}
+
+.p1 {
+    color: #27B6B6;
+    font-size: 80%;
+}
+
+.button4 .button_4 {
+    width: 45%;
+    height: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+    
+}
+
+.button_4 {
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+
+.p2 {
+    width: 50vw;
+    color: #27B6B6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    cursor:default;
+    
+}
+
+.p3, .icon {
+    width: 50%;
+    color: #27B6B6;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    
+}
+
+.icon {
+    width: 1rem;
+    color: #27B6B6;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+
+    .input1 {
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .input1 label {
+        margin-bottom: 0px;
+    }
+    
+    .input2 {
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+
+    .input2 label {
+        margin-bottom: 0px;
+    }
+
+    .button4 .button_4 {
+        width: 20%;
+        height: 55%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 110px;      
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .input1 {
+        width: 30%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+        margin-bottom: 10px;
+    }
+    
+    .input2 {
+        width: 30%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+
+    .button4 .button_4 {
+        width: 10%;
+        height: 55%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 110px;      
+    }
+
+}
+/* Fim da página Login */
